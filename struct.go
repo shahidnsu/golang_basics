@@ -37,4 +37,14 @@ func main() {
 		address: "khilgon",
 	}
 	fmt.Println(shahid)
+	b2 := struct {
+		name    string
+		age     int
+		address string
+	}{
+		name:    "Shahid",
+		age:     12,
+		address: "khilgon",
+	}
+	fmt.Println(b2)
 }

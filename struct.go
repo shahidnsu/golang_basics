@@ -24,6 +24,7 @@ func main() {
 	fmt.Println(b1.isbn)
 	fmt.Println(b1.prices)
 	fmt.Println(b1.pages)
+
 	//make a struct and assgin  a values
 
 	type person struct {
@@ -37,6 +38,9 @@ func main() {
 		address: "khilgon",
 	}
 	fmt.Println(shahid)
+
+	//anoyonomous struct
+
 	b2 := struct {
 		name    string
 		age     int
